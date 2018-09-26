@@ -16,7 +16,7 @@
 
 #### node-red-contrib-cloudbit
 
-dependency : [littlebits-cloud-http](https://www.npmjs.com/package/littlebits-cloud-http) lightweight wrapper for littleBits Cloud HTTP API
+[littlebits-cloud-http](https://www.npmjs.com/package/littlebits-cloud-http) lightweight wrapper for littleBits Cloud HTTP API
 
  TBD
  
