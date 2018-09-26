@@ -8,11 +8,11 @@
  
 ## Blynk
 
-"Blynk is a Platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet." ..._from [blynk.cc](https://www.blynk.cc/)
+"Blynk is a Platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet." ..._from [blynk.cc](https://www.blynk.cc/)_
 
 ## Node-RED
 
-"a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click." ..._from [nodered.org](https://nodered.org/)
+"a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click." ..._from [nodered.org](https://nodered.org/)_
 
 #### node-red-contrib-cloudbit
 
