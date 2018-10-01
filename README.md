@@ -5,9 +5,11 @@
 "The cloudBit is the easiest way to create internet­-connected devices. You can now snap the internet to anything! Retrofit your thermostat to control it remotely, or set up a sound-triggered alarm system that texts you alerts - the possibilities are endless." ..._from [littleBits](https://littlebits.com/)_
  
 #### [Cloud API](http://developers.littlebitscloud.cc/) to access litteBits Cloud API endpoints to manage your cloudbits
-#### [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
-#### [Exploring IoT Concepts with a cloudBit](https://www.designnews.com/electronics-test/exploring-iot-concepts-cloudbit/21164096047247)
-#### [LittleBits Now Lets You Build Your Own DIY Smart Home](https://gizmodo.com/littlebits-now-lets-you-to-build-your-own-diy-smart-hom-1609215918)
+
+#### Related Posts
+- [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
+- [Exploring IoT Concepts with a CloudBit](https://www.designnews.com/electronics-test/exploring-iot-concepts-cloudbit/21164096047247)
+- [LittleBits Now Lets You Build Your Own DIY Smart Home](https://gizmodo.com/littlebits-now-lets-you-to-build-your-own-diy-smart-hom-1609215918)
 
 ## Blynk
 
