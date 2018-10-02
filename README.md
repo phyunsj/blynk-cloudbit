@@ -30,3 +30,4 @@
 - [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
 - [Exploring IoT Concepts with a CloudBit](https://www.designnews.com/electronics-test/exploring-iot-concepts-cloudbit/21164096047247)
 - [LittleBits Now Lets You Build Your Own DIY Smart Home](https://gizmodo.com/littlebits-now-lets-you-to-build-your-own-diy-smart-hom-1609215918)
+- [Cloud Weather Dashboard](https://github.com/littlebits/project-cloud-weather-dashboard)
