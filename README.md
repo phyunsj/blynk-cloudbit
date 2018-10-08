@@ -33,13 +33,14 @@ The littleBits Cloud API is rate limited to prevent abuse that would degrade our
 <img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/circuit-output.png" width="300px"/>
 </p>
 
-In a `function` node (triggered by [Blynk-ws](https://www.npmjs.com/package/node-red-contrib-blynk-ws) `read event`),
+In a `function` node (triggered by [Blynk-ws](https://www.npmjs.com/package/node-red-contrib-blynk-ws) `read event` node),
 
 ```
+// "access_toekn" and "device_id" are acquired from littlebit cloudcontrol setting page
 var api = require('littlebits-cloud-http')
-          .defaults({ access_token: '*****************' }); // acquired from littlebit cloudcontrol setting page
+          .defaults({ access_token: '*****************' }); 
 
-api.output({device_id: '****', percent: 50, duration_ms: 5000 }); // acquired from littlebit cloudcontrol setting page
+api.output({device_id: '****', percent: 50, duration_ms: 5000 }); 
 ```
 
 ## The cloudBit acts as an output
