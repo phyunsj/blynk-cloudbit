@@ -24,6 +24,7 @@ The littleBits Cloud API is rate limited to prevent abuse that would degrade our
 
 - "**Node-RED** : a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click." ..._from [nodered.org](https://nodered.org/)_
 
+- [blynk + Node-RED](https://github.com/phyunsj/blynk-node-red) for the additional information.
 - [littlebits-cloud-http](https://www.npmjs.com/package/littlebits-cloud-http) lightweight wrapper for littleBits Cloud HTTP API
 
 
