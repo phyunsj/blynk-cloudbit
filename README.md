@@ -37,9 +37,9 @@ In a `function` node (triggered by [Blynk-ws](https://www.npmjs.com/package/node
 
 ```
 var api = require('littlebits-cloud-http')
-          .defaults({ access_token: '*****************' })
+          .defaults({ access_token: '*****************' }); // acquired from littlebit cloudcontrol setting page
 
-api.output({device_id: 'foobar2', percent: 50, duration_ms: 5000 })
+api.output({device_id: '****', percent: 50, duration_ms: 5000 }); // acquired from littlebit cloudcontrol setting page
 ```
 
 ## The cloudBit acts as an output
