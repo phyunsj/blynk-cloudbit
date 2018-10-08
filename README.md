@@ -39,9 +39,9 @@ In a `function` node (triggered by [Blynk-ws](https://www.npmjs.com/package/node
 ```
 // "access_token" and "device_id" are acquired from littlebit cloudcontrol setting page
 var api = require('littlebits-cloud-http')
-          .defaults({ access_token: '*****************' }); 
+          .defaults({ access_token: '**jfslf478jliwt9s**' }); 
 
-api.output({device_id: '****', percent: 50, duration_ms: 5000 }); 
+api.output({device_id: '**slkjfie**', percent: 50, duration_ms: 5000 }); 
 ```
 
 <p align="center">
@@ -59,10 +59,10 @@ Create a new subscription for `device_id`.
 ```
 // "access_token" and "device_id" are acquired from littlebit cloudcontrol setting page
 var api = require('littlebits-cloud-http')
-          .defaults({ access_token: '*****************' }); 
+          .defaults({ access_token: '**jfslf478jliwt9s**' }); 
 api.subscribe( {
-  subscriber_id : 'https://************',
-  publisher_id  : 'device_id',
+  subscriber_id : 'https://immense-garden-*****.herokuapp.com/bits',
+  publisher_id  : '**slkjfie**',
   publisher_events : [ 'amplitude' ]
 });         
 ```
