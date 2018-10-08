@@ -1,30 +1,42 @@
 
 
-## [CLOUDBIT™](https://littlebits.com/cloudstart/) from littleBits
+## [CLOUDBIT™](https://littlebits.com/cloudstart/) 
+
+**Disclaimer:** All images are from [littleBits](https://shop.littlebits.com/products/cloudbit)
 
 "The cloudBit is the easiest way to create internet­-connected devices. You can now snap the internet to anything! Retrofit your thermostat to control it remotely, or set up a sound-triggered alarm system that texts you alerts - the possibilities are endless." ..._from [littleBits](https://littlebits.com/)_
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/cloudbit.png" width="300px"/>
+</p>
  
 #### [Cloud API](http://developers.littlebitscloud.cc/) to access litteBits Cloud API endpoints to manage your cloudbits 
 The littleBits Cloud API is rate limited to prevent abuse that would degrade our ability to maintain consistent API performance for all users. (host : `https://api-http.littlebitscloud.cc`)
 
 
-## Blynk
+## Blynk + Node-RED
 
-"Blynk is a Platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet." ..._from [blynk.cc](https://www.blynk.cc/)_
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/blynk_nodered_littlebits.png" width="300px"/>
+</p>
 
-## Node-RED
+- "**Blynk** is a Platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet." ..._from [blynk.cc](https://www.blynk.cc/)_
 
-"a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click." ..._from [nodered.org](https://nodered.org/)_
+- "**Node-RED** : a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click." ..._from [nodered.org](https://nodered.org/)_
 
-#### node-red-contrib-cloudbit
+## The cloudBit acts as an input
 
-[littlebits-cloud-http](https://www.npmjs.com/package/littlebits-cloud-http) lightweight wrapper for littleBits Cloud HTTP API
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/circuit-output.png" width="300px"/>
+</p>
 
- TBD
- 
-## In Action
- 
- TBD
+- [littlebits-cloud-http](https://www.npmjs.com/package/littlebits-cloud-http) lightweight wrapper for littleBits Cloud HTTP API
+
+## The cloudBit acts as an output
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/circuit-sub-pub.png" width="300px"/>
+</p>
 
 ## Related Posts
 - [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
