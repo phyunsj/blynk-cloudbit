@@ -49,6 +49,19 @@ api.output({device_id: '****', percent: 50, duration_ms: 5000 });
 <img src="https://github.com/phyunsj/blynk-cloudbit/blob/master/images/circuit-sub-pub.png" width="300px"/>
 </p>
 
+Create a new subscription for `device_id`. 
+
+```
+// "access_toekn" and "device_id" are acquired from littlebit cloudcontrol setting page
+var api = require('littlebits-cloud-http')
+          .defaults({ access_token: '*****************' }); 
+api.subscribe( {
+  subscriber_id : 'https://************',
+  publisher_id  : 'device_id',
+  publisher_events : [ 'amplitude' ]
+});         
+```
+
 ## Related Posts
 - [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
 - [Exploring IoT Concepts with a CloudBit](https://www.designnews.com/electronics-test/exploring-iot-concepts-cloudbit/21164096047247)
