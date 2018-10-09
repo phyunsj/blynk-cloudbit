@@ -67,7 +67,7 @@ api.subscribe( {
 });         
 ```
 
- **NOTE** [Cloud Control](http://control.littlebitscloud.cc/) and [littlebits Invent App](https://itunes.apple.com/us/app/littlebits-invent/id1021974711?mt=8) worked as advertised. However, the sub/pub model doesn't ( `littlebits/cloud-client-api-http` has no updates over 3 years.) I didn't find any suitable working example yet. `subscriber_id` was assgined with the public URL (Node on [Heroku](https://www.heroku.com) Platform) but no request was received. 
+ **NOTE** [Cloud Control](http://control.littlebitscloud.cc/) and [littlebits Invent App](https://itunes.apple.com/us/app/littlebits-invent/id1021974711?mt=8) worked as advertised. However, the sub/pub model doesn't ( `littlebits/cloud-client-api-http` has no updates over 3 years.) I didn't find any suitable working example yet. `subscriber_id` was assgined with the public URL (Node/Express on [Heroku](https://www.heroku.com) Platform) but Express `/bits` POST handler  received no request. 
  
 ## Related Posts
 - [Getting Started with CloudBit](http://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
